@@ -10,6 +10,7 @@ import LoginScreen from './LoginScreen';
 import SplashScreen from './SplashScreen';
 import HomeScreen from './HomeScreen';
 
+
 const SwitchNavigation = createSwitchNavigator({
   SplashScreen: SplashScreen,
   LoginScreen: LoginScreen,
@@ -18,6 +19,9 @@ const SwitchNavigation = createSwitchNavigator({
 
 class App extends Component {
   state = {}
+  componentDidMount() {
+
+  }
   render() {
     return (
       <SwitchNavigation />
